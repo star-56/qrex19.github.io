@@ -1,22 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <title>website</title>
+
+    <!-- Links to some nice fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Overlock&family=Unica+One&display=swap" rel="stylesheet">
+    
+    <title>Nishant Jha - My Portfolio</title>
+
+    <style>
+        html {
+            background-image: url("https://wallpaperaccess.com/full/44780.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: fixed;
+
+            backdrop-filter: brightness(50%);
+        }
+
+        h1 {
+            font-family: 'fira code', monospace;
+            font-size: 200px;
+            margin-top: 350px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'fira code', monospace;
+            font-size: 40px;
+            margin-top: 30px;
+            margin-left: 100px;
+            /* text-align: center;*/       /*<-- You may want this, if so uncomment that portion*/
+        }
+
+        div.generaltext {
+            margin-left: 110px;
+            font-size: 30px;
+            font-family: 'overlock', sans-serif;
+        }
+
+        div.mylinks {
+            margin-left: 140px;
+            font-size: 30px;
+            font-family: 'unica one', 'tahoma bold';
+        }
+
+        div.mylinks a {
+            text-decoration: none;
+            color: green;
+        }
+
+        div.mylinks a:hover {
+            color:orange;
+        }
+
+
+    </style>
+
     <body>
-        <style>
-            div {
-              background-image: url('wallpaperflare.com_wallpaper-4.jpg');
-            }
-            </style>
+
         <h1>Nishant Jha</h1>
-        <p>________________________________</p>
-        
-        <p>links to my profiles are given below. </p>
-        <p> </p>
-        <a href = https://github.com/qrex19> github</a>
-        <p> </p>
-        <a href = https://www.instagram.com/iceburner18/> instagram</a>
-        <p> </p>
-        <a href = <a href = https://www.instagram.com/iceburner18/> facebook</a>
-        <p>itna info kaafi tha ab bhaago yahan se 😂</p>
+        <hr style="height: 9px; background-color: black">
+        <h2>Links to my profiles are given below. </h2>
+        <div class="mylinks">
+            <p><a href = "https://github.com/qrex19">&gt; GitHub</a></p>
+            <p><a href = "https://www.instagram.com/iceburner18/">&gt; Instagram</a></p>
+            <p><a href = "#">&gt;Facebook</a></p>
+            <p><a href = "https://bit.ly/nishantjha-on-twitter/">&gt;Twitter</a></p>
+        </div>
+        <div class="generaltext">
+            <p>itna info kaafi tha ab bhaago yahan se 😂</p>
+        </div>
     </body>
 </html>
